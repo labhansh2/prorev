@@ -1,0 +1,230 @@
+[38;20m2023-07-06 13:42:39,783 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 0e7268a6-5b2a-46b6-8c25-14f7496e6e15 (Notion.py:350)[0m
+[38;20m2023-07-06 13:42:39,795 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:42:40,428 - prorev.Notion - DEBUG    - new task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:42:40,428 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 63732e82-4f0f-4aae-a1e4-0d48ed063402 (Notion.py:350)[0m
+[38;20m2023-07-06 13:42:40,428 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:42:41,754 - prorev.Notion - DEBUG    - test task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:42:41,767 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 13:42:42,454 - prorev.Notion - INFO     - 7 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 13:42:42,454 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 82d40d38-d355-4750-9e23-011643ef5b77 (data.py:75)[0m
+[38;20m2023-07-06 13:42:42,468 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 9af73957-0360-4924-b08c-03a086573560 (Notion.py:350)[0m
+[38;20m2023-07-06 13:42:42,470 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:42:43,094 - prorev.Notion - DEBUG    - new task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:42:43,110 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 111316f4-a5a8-4576-a86e-5410d81d728b (data.py:75)[0m
+[38;20m2023-07-06 13:42:43,112 - prorev.Notion - DEBUG    - Deleting Task : 111316f4-a5a8-4576-a86e-5410d81d728b (Notion.py:391)[0m
+[38;20m2023-07-06 13:42:47,819 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 90a77884-a567-4e6c-bff5-5bd21f14fb5f (data.py:75)[0m
+[38;20m2023-07-06 13:42:47,822 - prorev.Notion - DEBUG    - Deleting Task : 90a77884-a567-4e6c-bff5-5bd21f14fb5f (Notion.py:391)[0m
+[38;20m2023-07-06 13:42:49,995 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : aa96a4b7-89b6-417d-8f99-532c852cd3bc (data.py:75)[0m
+[38;20m2023-07-06 13:42:49,997 - prorev.Notion - DEBUG    - Deleting Task : aa96a4b7-89b6-417d-8f99-532c852cd3bc (Notion.py:391)[0m
+[38;20m2023-07-06 13:42:50,492 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 14302f13-7f7a-4a8b-bc40-ea4f5d0079a8 (data.py:75)[0m
+[38;20m2023-07-06 13:42:50,494 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 384e16fe-dac1-4b00-b6f1-b0c42d1bdb47 (Notion.py:350)[0m
+[38;20m2023-07-06 13:42:50,499 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:43:00,705 - prorev.Notion - DEBUG    - new task 103 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:43:00,705 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 0e7268a6-5b2a-46b6-8c25-14f7496e6e15 (data.py:75)[0m
+[38;20m2023-07-06 13:43:00,721 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 4fd89f3b-65b0-4955-aaab-1ed2382c3622 (Notion.py:350)[0m
+[38;20m2023-07-06 13:43:00,722 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:43:13,343 - prorev.Notion - DEBUG    - new task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:43:13,348 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 63732e82-4f0f-4aae-a1e4-0d48ed063402 (data.py:75)[0m
+[38;20m2023-07-06 13:43:13,348 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 33850dca-f288-4c56-850f-9bb7661bebaa (Notion.py:350)[0m
+[38;20m2023-07-06 13:43:13,353 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 13:43:17,259 - prorev.Notion - DEBUG    - test task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 13:43:17,259 - __main__ - INFO     - SLEEP MODE : 10s (main.py:298)[0m
+[38;20m2023-07-06 13:43:38,052 - prorev.data - INFO     - Creating Connection Table If Not Exists (data.py:101)[0m
+[38;20m2023-07-06 13:43:38,052 - prorev.data - DEBUG    - Getting Connection Details (data.py:107)[0m
+[38;20m2023-07-06 13:43:38,052 - prorev.data - DEBUG    - Connection Details : [('secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ', 'revision tracker', '17668', 'https://notify.run/eXr1PnCcXvMjjmw7PuzH')] (data.py:109)[0m
+[38;20m2023-07-06 13:43:38,066 - prorev.Notion - INFO     - Searching for Page : revision tracker (Notion.py:29)[0m
+[38;20m2023-07-06 13:43:39,695 - prorev.Notion - INFO     - Page Found (Notion.py:42)[0m
+[38;20m2023-07-06 13:43:50,342 - prorev.Notion - DEBUG    - 2 databases found for user's page (Notion.py:84)[0m
+[38;20m2023-07-06 13:43:50,354 - prorev.data - INFO     - Erasing Existing Connection Info (data.py:146)[0m
+[38;20m2023-07-06 13:43:50,428 - prorev.data - DEBUG    - Adding Connection Details : secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ (data.py:116)[0m
+[38;20m2023-07-06 13:43:50,598 - prorev.data - DEBUG    - Updating PID : 17668 (data.py:124)[0m
+[38;20m2023-07-06 13:43:50,748 - prorev.data - DEBUG    - Updating Notification Channel Info : https://notify.run/eXr1PnCcXvMjjmw7PuzH (data.py:131)[0m
+[38;20m2023-07-06 13:43:50,826 - prorev.data - INFO     - Creating Table for Task Ids (data.py:45)[0m
+[38;20m2023-07-06 13:43:50,829 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:51,292 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:51,294 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:51,704 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:51,704 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:53,342 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:53,342 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:53,827 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:53,827 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:54,235 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:54,237 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:54,711 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:54,711 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:55,101 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:55,101 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:55,533 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:55,547 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:58,407 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:58,407 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:58,818 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:58,818 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:59,218 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:59,218 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:43:59,649 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:43:59,651 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:03,223 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:03,223 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:05,389 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:05,390 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:05,940 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:05,940 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:06,382 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:06,383 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:06,793 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:06,796 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:07,225 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:07,227 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:07,813 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:07,813 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:08,264 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:08,264 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[33;20m2023-07-06 13:44:08,656 - __main__ - WARNING  - Could not find database with ID: 3f3f2165-bd6e-4896-89b0-5f0b0ea6dc51. Make sure the relevant pages and databases are shared with your integration. (main.py:301)[0m
+[38;20m2023-07-06 13:44:08,658 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[38;20m2023-07-06 13:44:14,344 - prorev.data - INFO     - Creating Connection Table If Not Exists (data.py:101)[0m
+[38;20m2023-07-06 13:44:14,358 - prorev.data - DEBUG    - Getting Connection Details (data.py:107)[0m
+[38;20m2023-07-06 13:44:14,359 - prorev.data - DEBUG    - Connection Details : [('secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ', 'revision tracker', '18912', 'https://notify.run/eXr1PnCcXvMjjmw7PuzH')] (data.py:109)[0m
+[38;20m2023-07-06 13:44:14,374 - prorev.Notion - INFO     - Searching for Page : revision tracker (Notion.py:29)[0m
+[38;20m2023-07-06 13:44:15,028 - prorev.Notion - INFO     - Page Found (Notion.py:42)[0m
+[38;20m2023-07-06 13:44:21,949 - prorev.Notion - DEBUG    - 0 databases found for user's page (Notion.py:84)[0m
+[38;20m2023-07-06 13:44:54,215 - prorev.data - INFO     - Erasing Existing Connection Info (data.py:146)[0m
+[38;20m2023-07-06 13:44:54,279 - prorev.data - DEBUG    - Adding Connection Details : secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ (data.py:116)[0m
+[38;20m2023-07-06 13:44:54,429 - prorev.data - DEBUG    - Updating PID : 18912 (data.py:124)[0m
+[38;20m2023-07-06 13:44:54,536 - prorev.data - DEBUG    - Updating Notification Channel Info : https://notify.run/eXr1PnCcXvMjjmw7PuzH (data.py:131)[0m
+[38;20m2023-07-06 13:44:54,702 - prorev.data - INFO     - Creating Table for Task Ids (data.py:45)[0m
+[38;20m2023-07-06 13:44:54,707 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[38;20m2023-07-06 13:44:55,110 - prorev.Notion - DEBUG    - Classifying New Tasks (Notion.py:241)[0m
+[38;20m2023-07-06 13:44:55,110 - prorev.Notion - DEBUG    - 0 Round 1 Tasks Found (Notion.py:244)[0m
+[38;20m2023-07-06 13:44:55,110 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 13:44:55,114 - __main__ - INFO     - 0 New Tasks Found (main.py:68)[0m
+[38;20m2023-07-06 13:44:55,114 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 13:44:55,589 - prorev.Notion - INFO     - 0 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 13:44:55,591 - prorev.Notion - DEBUG    - Quering Database For All Tasks (Notion.py:397)[0m
+[38;20m2023-07-06 13:44:57,416 - prorev.Notion - DEBUG    - 0 Tasks Found in the DB (Notion.py:430)[0m
+[38;20m2023-07-06 13:44:57,416 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 13:44:57,903 - prorev.Notion - INFO     - 0 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 13:44:57,913 - __main__ - INFO     - SLEEP MODE : 10s (main.py:298)[0m
+[38;20m2023-07-06 13:45:07,916 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[38;20m2023-07-06 13:45:09,761 - prorev.Notion - DEBUG    - Classifying New Tasks (Notion.py:241)[0m
+[38;20m2023-07-06 13:45:09,761 - prorev.Notion - DEBUG    - 0 Round 1 Tasks Found (Notion.py:244)[0m
+[38;20m2023-07-06 13:45:09,766 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 13:45:09,769 - __main__ - INFO     - 0 New Tasks Found (main.py:68)[0m
+[38;20m2023-07-06 13:45:09,771 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 13:45:11,376 - prorev.Notion - INFO     - 0 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 13:45:11,378 - prorev.Notion - DEBUG    - Quering Database For All Tasks (Notion.py:397)[0m
+[38;20m2023-07-06 13:45:11,966 - prorev.Notion - DEBUG    - 0 Tasks Found in the DB (Notion.py:430)[0m
+[38;20m2023-07-06 13:45:11,987 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 13:45:14,159 - prorev.Notion - INFO     - 0 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 13:45:14,170 - __main__ - INFO     - SLEEP MODE : 10s (main.py:298)[0m
+[38;20m2023-07-06 22:19:12,835 - prorev.data - INFO     - Creating Connection Table If Not Exists (data.py:101)[0m
+[38;20m2023-07-06 22:19:12,837 - prorev.data - DEBUG    - Getting Connection Details (data.py:107)[0m
+[38;20m2023-07-06 22:19:12,838 - prorev.data - DEBUG    - Connection Details : [('secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ', 'revision tracker', '21832', 'https://notify.run/eXr1PnCcXvMjjmw7PuzH')] (data.py:109)[0m
+[38;20m2023-07-06 22:19:12,856 - prorev.Notion - INFO     - Searching for Page : revision tracker (Notion.py:29)[0m
+[38;20m2023-07-06 22:19:15,197 - prorev.Notion - INFO     - Page Found (Notion.py:42)[0m
+[38;20m2023-07-06 22:19:33,020 - prorev.Notion - DEBUG    - 2 databases found for user's page (Notion.py:84)[0m
+[38;20m2023-07-06 22:19:33,020 - prorev.data - INFO     - Erasing Existing Connection Info (data.py:146)[0m
+[38;20m2023-07-06 22:19:33,110 - prorev.data - DEBUG    - Adding Connection Details : secret_2GBKmB8HqLa5dMMo6tbggohNwzVMHRbWkadmatz8adZ (data.py:116)[0m
+[38;20m2023-07-06 22:19:33,208 - prorev.data - DEBUG    - Updating PID : 21832 (data.py:124)[0m
+[38;20m2023-07-06 22:19:33,305 - prorev.data - DEBUG    - Updating Notification Channel Info : https://notify.run/eXr1PnCcXvMjjmw7PuzH (data.py:131)[0m
+[38;20m2023-07-06 22:19:33,407 - prorev.data - INFO     - Creating Table for Task Ids (data.py:45)[0m
+[38;20m2023-07-06 22:19:33,407 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[38;20m2023-07-06 22:19:34,449 - prorev.Notion - DEBUG    - Classifying New Tasks (Notion.py:241)[0m
+[38;20m2023-07-06 22:19:34,449 - prorev.Notion - DEBUG    - 3 Round 1 Tasks Found (Notion.py:244)[0m
+[38;20m2023-07-06 22:19:34,449 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 22:19:34,449 - __main__ - INFO     - 3 New Tasks Found (main.py:68)[0m
+[38;20m2023-07-06 22:19:34,449 - prorev.data - DEBUG    - Storing Main Id : 680a2987-ba9f-4f62-9989-5a43158e5e37 (data.py:51)[0m
+[38;20m2023-07-06 22:19:34,528 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 680a2987-ba9f-4f62-9989-5a43158e5e37 (Notion.py:350)[0m
+[38;20m2023-07-06 22:19:34,536 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:19:35,270 - prorev.Notion - DEBUG    - test 102 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:19:35,270 - prorev.rev_model - INFO     - Generating Plan of 3 Months for Task : test 102 (rev_model.py:10)[0m
+[38;20m2023-07-06 22:19:35,287 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 2] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:36,088 - prorev.Notion - DEBUG    - 40785bc9-0cbb-459e-8371-4e2a0fcf29e6 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:36,092 - prorev.data - DEBUG    - Storing Main Id : 40785bc9-0cbb-459e-8371-4e2a0fcf29e6 (data.py:51)[0m
+[38;20m2023-07-06 22:19:36,193 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 3] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:36,952 - prorev.Notion - DEBUG    - eeccd87b-c958-4da6-b9bc-3ef2a125ca82 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:36,952 - prorev.data - DEBUG    - Storing Main Id : eeccd87b-c958-4da6-b9bc-3ef2a125ca82 (data.py:51)[0m
+[38;20m2023-07-06 22:19:37,040 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 4] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:37,720 - prorev.Notion - DEBUG    - 7bf8e401-653f-41fb-8fcb-b23b0f73ffca Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:37,720 - prorev.data - DEBUG    - Storing Main Id : 7bf8e401-653f-41fb-8fcb-b23b0f73ffca (data.py:51)[0m
+[38;20m2023-07-06 22:19:37,818 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 5] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:41,415 - prorev.Notion - DEBUG    - c20a1d0e-6a6a-45a5-832e-eab248893f2b Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:41,415 - prorev.data - DEBUG    - Storing Main Id : c20a1d0e-6a6a-45a5-832e-eab248893f2b (data.py:51)[0m
+[38;20m2023-07-06 22:19:41,822 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 6] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:43,917 - prorev.Notion - DEBUG    - c91f2c49-83d0-44a9-a00d-66d6acdbc30b Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:43,917 - prorev.data - DEBUG    - Storing Main Id : c91f2c49-83d0-44a9-a00d-66d6acdbc30b (data.py:51)[0m
+[38;20m2023-07-06 22:19:44,022 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 7] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:49,595 - prorev.Notion - DEBUG    - 88fcdba9-f3e2-4aad-b7c4-d6abcf7ec889 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:49,595 - prorev.data - DEBUG    - Storing Main Id : 88fcdba9-f3e2-4aad-b7c4-d6abcf7ec889 (data.py:51)[0m
+[38;20m2023-07-06 22:19:49,991 - prorev.data - DEBUG    - Storing Main Id : 740fbcc7-fbeb-416b-acfc-b8d80fcf32d0 (data.py:51)[0m
+[38;20m2023-07-06 22:19:50,102 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 740fbcc7-fbeb-416b-acfc-b8d80fcf32d0 (Notion.py:350)[0m
+[38;20m2023-07-06 22:19:50,110 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:19:51,657 - prorev.Notion - DEBUG    - one more test task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:19:51,657 - prorev.rev_model - INFO     - Generating Plan of 1 Month for Task : one more test task 101 (rev_model.py:10)[0m
+[38;20m2023-07-06 22:19:51,662 - prorev.Notion - INFO     - Adding Task: one more test task 101 [Round: 2] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:52,462 - prorev.Notion - DEBUG    - 0d565aa4-11d0-4cda-ab7b-e20938ca0855 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:52,462 - prorev.data - DEBUG    - Storing Main Id : 0d565aa4-11d0-4cda-ab7b-e20938ca0855 (data.py:51)[0m
+[38;20m2023-07-06 22:19:52,867 - prorev.Notion - INFO     - Adding Task: one more test task 101 [Round: 3] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:54,097 - prorev.Notion - DEBUG    - 74a6e4c2-2b59-4a49-ac53-140dde447b83 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:54,113 - prorev.data - DEBUG    - Storing Main Id : 74a6e4c2-2b59-4a49-ac53-140dde447b83 (data.py:51)[0m
+[38;20m2023-07-06 22:19:54,193 - prorev.Notion - INFO     - Adding Task: one more test task 101 [Round: 4] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:54,919 - prorev.Notion - DEBUG    - 05b14f8f-1959-4cc0-af89-107ebec7a51c Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:54,919 - prorev.data - DEBUG    - Storing Main Id : 05b14f8f-1959-4cc0-af89-107ebec7a51c (data.py:51)[0m
+[38;20m2023-07-06 22:19:55,040 - prorev.Notion - INFO     - Adding Task: one more test task 101 [Round: 5] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:55,952 - prorev.Notion - DEBUG    - c40f8af1-ec8a-4380-b97a-7e1f6e33d37e Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:55,952 - prorev.data - DEBUG    - Storing Main Id : c40f8af1-ec8a-4380-b97a-7e1f6e33d37e (data.py:51)[0m
+[38;20m2023-07-06 22:19:56,049 - prorev.data - DEBUG    - Storing Main Id : f86aa16c-0bde-46e7-88d5-5cd27f7b1b21 (data.py:51)[0m
+[38;20m2023-07-06 22:19:56,154 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : f86aa16c-0bde-46e7-88d5-5cd27f7b1b21 (Notion.py:350)[0m
+[38;20m2023-07-06 22:19:56,154 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:19:56,979 - prorev.Notion - DEBUG    - brand new test task 101 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:19:56,979 - prorev.rev_model - INFO     - Generating Plan of 1 Week for Task : brand new test task 101 (rev_model.py:10)[0m
+[38;20m2023-07-06 22:19:56,989 - prorev.Notion - INFO     - Adding Task: brand new test task 101 [Round: 2] (Notion.py:332)[0m
+[38;20m2023-07-06 22:19:57,690 - prorev.Notion - DEBUG    - bd893e82-a45c-4e02-9f71-19493a465c96 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:19:57,690 - prorev.data - DEBUG    - Storing Main Id : bd893e82-a45c-4e02-9f71-19493a465c96 (data.py:51)[0m
+[38;20m2023-07-06 22:19:58,131 - prorev.Notion - INFO     - Adding Task: brand new test task 101 [Round: 3] (Notion.py:332)[0m
+[38;20m2023-07-06 22:20:00,278 - prorev.Notion - DEBUG    - ba37fa07-c542-45b5-bc66-56de943ac9b1 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:20:00,278 - prorev.data - DEBUG    - Storing Main Id : ba37fa07-c542-45b5-bc66-56de943ac9b1 (data.py:51)[0m
+[38;20m2023-07-06 22:20:00,375 - prorev.Notion - INFO     - Adding Task: brand new test task 101 [Round: 4] (Notion.py:332)[0m
+[38;20m2023-07-06 22:20:01,530 - prorev.Notion - DEBUG    - 457fbaaf-26fe-473e-9eb3-c0b7c3016227 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:20:01,530 - prorev.data - DEBUG    - Storing Main Id : 457fbaaf-26fe-473e-9eb3-c0b7c3016227 (data.py:51)[0m
+[38;20m2023-07-06 22:20:01,630 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 22:20:05,374 - prorev.Notion - INFO     - 1 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 22:20:05,374 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 22:20:05,381 - prorev.data - DEBUG    - Fetching Pending Id for Main ID : 680a2987-ba9f-4f62-9989-5a43158e5e37 (data.py:82)[0m
+[38;20m2023-07-06 22:20:05,381 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 680a2987-ba9f-4f62-9989-5a43158e5e37 (Notion.py:350)[0m
+[38;20m2023-07-06 22:20:05,389 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:20:08,861 - prorev.Notion - DEBUG    - test 102 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:20:08,861 - prorev.Notion - INFO     - Adding Task: test 102 [Round: 1] (Notion.py:332)[0m
+[38;20m2023-07-06 22:20:09,991 - prorev.Notion - DEBUG    - b999a6ad-4a7a-4b28-91a6-3d7b8791f457 Added (Notion.py:339)[0m
+[38;20m2023-07-06 22:20:09,991 - prorev.data - DEBUG    - Storing Pending Id : b999a6ad-4a7a-4b28-91a6-3d7b8791f457 for Main : 680a2987-ba9f-4f62-9989-5a43158e5e37 (data.py:58)[0m
+[38;20m2023-07-06 22:20:10,089 - prorev.Notion - DEBUG    - Quering Database For All Tasks (Notion.py:397)[0m
+[38;20m2023-07-06 22:20:11,107 - prorev.Notion - DEBUG    - 2 Tasks Found in the DB (Notion.py:430)[0m
+[38;20m2023-07-06 22:20:11,107 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : b999a6ad-4a7a-4b28-91a6-3d7b8791f457 (Notion.py:350)[0m
+[38;20m2023-07-06 22:20:11,116 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:20:11,714 - prorev.Notion - DEBUG    - test 102 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:20:11,714 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 23154037-0cf4-4975-95ad-2dd06ceb93b9 (Notion.py:350)[0m
+[38;20m2023-07-06 22:20:11,729 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:20:12,340 - prorev.Notion - DEBUG    - test 102 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:20:12,340 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 22:20:14,480 - prorev.Notion - INFO     - 2 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 22:20:14,480 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : b999a6ad-4a7a-4b28-91a6-3d7b8791f457 (data.py:75)[0m
+[38;20m2023-07-06 22:20:14,494 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : 680a2987-ba9f-4f62-9989-5a43158e5e37 (Notion.py:350)[0m
+[38;20m2023-07-06 22:20:14,499 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m
+[38;20m2023-07-06 22:20:15,405 - prorev.Notion - DEBUG    - test 102 - Found (Notion.py:369)[0m
+[38;20m2023-07-06 22:20:15,405 - prorev.data - DEBUG    - Fetching Main Id for Pending ID : 23154037-0cf4-4975-95ad-2dd06ceb93b9 (data.py:75)[0m
+[38;20m2023-07-06 22:20:15,418 - prorev.Notion - DEBUG    - Deleting Task : 23154037-0cf4-4975-95ad-2dd06ceb93b9 (Notion.py:391)[0m
+[38;20m2023-07-06 22:20:18,712 - __main__ - INFO     - SLEEP MODE : 10s (main.py:298)[0m
+[38;20m2023-07-06 22:20:28,717 - prorev.Notion - DEBUG    - Getting Round 1 Tasks from All Tasks (Notion.py:209)[0m
+[38;20m2023-07-06 22:20:31,791 - prorev.Notion - DEBUG    - Classifying New Tasks (Notion.py:241)[0m
+[38;20m2023-07-06 22:20:31,791 - prorev.Notion - DEBUG    - 3 Round 1 Tasks Found (Notion.py:244)[0m
+[38;20m2023-07-06 22:20:31,791 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 22:20:31,801 - __main__ - INFO     - 0 New Tasks Found (main.py:68)[0m
+[38;20m2023-07-06 22:20:31,801 - prorev.Notion - DEBUG    - Querying Database For Pending Tasks [Tasks On or Before 2023-07-06] (Notion.py:251)[0m
+[38;20m2023-07-06 22:20:33,009 - prorev.Notion - INFO     - 1 Pending Tasks Found (Notion.py:290)[0m
+[38;20m2023-07-06 22:20:33,009 - prorev.data - DEBUG    - Fetching All main_id from DB (data.py:65)[0m
+[38;20m2023-07-06 22:20:33,024 - prorev.data - DEBUG    - Fetching Pending Id for Main ID : 680a2987-ba9f-4f62-9989-5a43158e5e37 (data.py:82)[0m
+[38;20m2023-07-06 22:20:33,024 - prorev.Notion - DEBUG    - Quering Database For All Tasks (Notion.py:397)[0m
+[38;20m2023-07-06 22:20:35,867 - prorev.Notion - DEBUG    - 1 Tasks Found in the DB (Notion.py:430)[0m
+[38;20m2023-07-06 22:20:35,867 - prorev.Notion - DEBUG    - Getting Task Info for Task ID : b999a6ad-4a7a-4b28-91a6-3d7b8791f457 (Notion.py:350)[0m
+[38;20m2023-07-06 22:20:35,874 - prorev.Notion - DEBUG    - Querying Database for Task Info (Notion.py:357)[0m

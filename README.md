@@ -71,8 +71,17 @@ and notification service, follow these steps:
     pip install -r requirements.txt
     ```
 3. Run the script:
+
     ```
     python main.py
+
+    options:
+    -h, --help        show this help message and exit
+    --debug           Enable debug logging level
+    --info            Enable info logging level [DEFAULT]
+    --error           Enable error logging level
+    --warning         Enable warning logging level
+    --new_connection  Erases Existing Connection For Creating a New Connection
     ```
 
 ## Contributing
