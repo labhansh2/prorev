@@ -9,18 +9,22 @@ retention of concepts.
 
 Prorev is a Python project that integrates with Notion to improve learning and
 memory retention. It utilizes the gapped revision method, a technique that
-optimizes the revision process by spacing out study sessions. By organizing and
-rendering new reads based on this method along with perioding notifications,
+optimizes the revision process by spacing out reading sessions. By organizing
+and rendering new reads based on this method along with perioding notifications,
 Prorev helps users efficiently retain and reinforce concepts.
 
-<img src="img/forgetting-v1.png" alt="Image" height="180" />
-<img src="img/learning-v1-updated-1024x574.png" alt="Image" height="180" />
+<div>
+<img src="img/forgetting-v1.png" alt="Image" width="400" />
+<img src="img/learning-v1-updated-1024x574.png" alt="Image" width="400" />
+</div>
 
 ## Features
 
--   Study Plan Generation: Users can select a time span to generate a study plan
-    based on the gapped revision method optimizes for their time span.
--   Timely Notifications: Prorev provides timely notifications for tasks in the
+-   Reading Plan Generation: Users can select a time span to generate a Reading
+    plan based on the gapped revision method optimizes for their time span.
+-   Time Span Options: Users can select a time span to get a optimised reading
+    plan for their span.
+-   Timely Notifications: Prorev provides timely notifications for reads in the
     pending database, ensuring you stay on track with your learning goals.
 -   Multi-Device Support: Subscribed users can receive notifications on up to 20
     devices, allowing you to stay connected across multiple platforms.
@@ -43,7 +47,7 @@ token:
 
 ## Usage
 
-There are two options to run Prorev:
+There are two ways in which you can use ProRev:
 
 ### 1. Client App
 
@@ -55,26 +59,37 @@ machine. Follow the steps below to use the local client:
 2. Open 'Prorev' dekstop app
 3. Enter your Integration Token and the Page Name and activate the connection
 4. Click on 'get notifications' to subscribe on the devices to get notifications
-   for pending tasks
+   for pending reads
 
-### 2. Hosting on Cloud or To Run as a Script [Recommended]
+### 2. Hosting on Cloud or To Run as a Script on local machine [Recommended]
 
 If you want to host the Prorev project on a cloud platform for 24/7 rendering
 and notification service, follow these steps:
 
-1. Clone the repository:
+1. Go to any cloud hostings of your choice, here are some free options:
+    - [pythonanywere](https://www.pythonanywhere.com/)
+    - [render.com](https://render.com/)
+    - [railway.app](https://railway.app/)
+2. Open Console
+3. Clone the repository:
     ```
-    git clone https://www.github.com/labhansh2/prorev.git
+    git clone https://github.com/labhansh2/prorev.git
     ```
-2. Installing the dependencies:
+4. Enter the Root Directory of the project:
+    ```
+    cd prorev
+    ```
+5. Installing the dependencies:
     ```
     pip install -r requirements.txt
     ```
-3. Run the script:
+6. Run the script:
 
     ```
     python main.py
+    ```
 
+    ```
     options:
     -h, --help        show this help message and exit
     --debug           Enable debug logging level
@@ -84,9 +99,24 @@ and notification service, follow these steps:
     --new_connection  Erases Existing Connection For Creating a New Connection
     ```
 
+7. Enter your integration token and the name of the page you created in Notion.
+8. Subscribe for Notifications from the Notification Endpoint Link Displayed in
+   the Console.
+
+## ToDo
+
+-   [ ] Optimize the code for least API calls to Notion API
+-   [ ] Sign the client executable so windows doesn't dub it as a potential
+        virus [imp]
+-   [ ] Add Directions to Use in the Rendered Notion User Page
+-   [ ] Replace Starter Functions in Main with Script and Processes to run from
+        client using subprocess
+-   [ ] Make Prorev a public notion integration to save users from the hassle of
+        getting integration token and hosting
+
 ## Contributing
 
 Contributions to Prorev are welcome! If you encounter any issues or have ideas
 for improvements, please open an issue on the
 [GitHub repository](https://www.github.com/labhansh2/prorev.git) or submit a
-pull request
+pull request. You can also refer #ToDo for ideas to contribute.
