@@ -358,15 +358,16 @@ class database:
         date = None
 
         logger.debug('Getting Task Info for Task ID : {}'.format(task_id))
-        while any(
-            var is None for var in (
-                task, duration, done, round_no, date
-            )
-        ) and type(duration) != dict:
+        # while any(
+        #     var is None for var in (
+        #         task, duration, done, round_no, date
+        #     )
+        # ) and type(duration) != dict:
 
-            logger.debug('Querying Database for Task Info')
-            result = self.notion.databases.query(database_id=self.db_Id)
+        logger.debug('Querying Database for Task Info')
+        result = self.notion.databases.query(database_id=self.db_Id)
 
+        try:
             for res in result['results']:
                 if res['id'] == task_id:
                     task = res['properties']['Task Name']['title'][0]['plain_text']
@@ -375,15 +376,20 @@ class database:
                     round_no = res['properties']['Round']['number']
                     date = res['properties']['Date']['date']['start']
 
-        duration.pop('id')
-        logger.debug(f"{task} - Found")
-        return {
-            "task": task,
-            "duration": duration,
-            "done": done,
-            "round_no": round_no,
-            "date": date
-        }
+            if type(duration) == dict:
+                duration.pop('id')
+
+        except IndexError:
+            return False
+        else:
+            logger.debug(f"{task} - Found")
+            return {
+                "task": task,
+                "duration": duration,
+                "done": done,
+                "round_no": round_no,
+                "date": date
+            }
 
     def mark_done(self, task_id):
 

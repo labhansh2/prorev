@@ -60,7 +60,6 @@ class operations:
 
     def operate_new(self):
 
-        # write apropriate variable names
         all_task_ids = self.main_db.get_round1_ids()
         existing_task_ids = data.get_all('main_id')
 
@@ -82,8 +81,10 @@ class operations:
 
         for id in pending_task_ids:
             if id not in data.get_all('main_id'):
+                # means not yet operated as new
                 self.operate_new()
             if data.get_pending_for_main(id) == None:
+                # means not added to pending db
                 task_obj = self.main_db.get_task_obj(id)
                 added_id = self.pending_db.add_task(task_obj)
                 data.store_pending_id(added_id, id)
@@ -111,9 +112,11 @@ class operations:
             except:
                 self.pending_db.delete_task(t_id)
             else:
-                if self.main_db.get_task_obj(m_id)['done'] == True:
-                    self.pending_db.delete_task(t_id)
-                    data.delete_pending_id(m_id)
+                task_obj = self.main_db.get_task_obj(m_id)
+                if task_obj:
+                    if task_obj['done'] == True:
+                        self.pending_db.delete_task(t_id)
+                        data.delete_pending_id(m_id)
 
     def notif(self):
 
@@ -171,11 +174,12 @@ def set_page(notion_instance, page_name):
                   unit='%',
                   bar_format='''  {desc}: {percentage:3.0f}% |{bar}| {n_fmt}/{total_fmt}'''
                   ) as progress_bar:
-            # logger.debug('Fethcing Database Details...')
+            # logger.info('Fethcing Database Details...')
             while not database_info:
                 database_info = rev_page.get_databases(mode='v')
-            # progress_bar.update(2)
-            # progress_bar.update(100 - progress_bar.n)
+                progress_bar.update(2)
+            progress_bar.update(100 - progress_bar.n)
+        progress_bar.close()
         print(
             f'''\nInitalized on:\n  Page ID   : {page_id}\n  Page Name : {page_name}'''
         )
